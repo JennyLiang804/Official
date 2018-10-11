@@ -7,8 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jenny Liang</title>
     <link rel="icon" href="images/jl2.PNG">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--jquery cdn-->
-    <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
@@ -26,18 +28,18 @@
                     <div class="nav-wrapper">
                         <a href="#" class="brand-logo right" style="font-size: 360%; text-shadow: 0 0 20px black">Jenny
                             Liang</a>
-                        <ul id="nav-mobile" class="left hide-on-med-and-down">
-                            <li><a href="english.html">
-                                    <p>English<img class="us-flag material-icons left" src="images/us-flag.png">
-                                </a></p>
-                            </li>
-                            <li><a href="chinese.html">
-                                    <p>中文<img class="chinese-flag material-icons left" src="images/chinese-flag.png">
-                                </a></p>
-                            </li>
-                        </ul>
                     </div>
                 </nav>
+                <ul class="sideNav" id="nav-mobile">
+                    <li><a href="english.html">
+                            <p>English<img class="us-flag material-icons left" src="images/us-flag.png">
+                        </a></p>
+                    </li>
+                    <li><a href="chinese.html">
+                            <p>中文<img class="chinese-flag material-icons left" src="images/chinese-flag.png">
+                        </a></p>
+                    </li>
+                </ul>
             </div>
             <!--row-->
 
@@ -76,6 +78,19 @@
                 </div>
             </div>
             <!--row-->
+            
+            <div class="skills">
+                <h5 class="skill-header">Skills</h4>
+                    <hr style="color: white," width="100">
+                <img src="images/html5-skill.png">
+                <img src="images/css-skill.png">
+                <img src="images/javascript-skill.png">
+                <img src="images/node-skill.png">
+                <img src="images/jquery-skill.png">
+                <img src="images/bootstrap-skill.png">
+                <img src="images/materialize-skill.png">
+                <img src="images/github-skill.png">
+            </div>
         </div>
         <!--container-->
     </div>
@@ -91,7 +106,9 @@
                 <div class="col s4 offset-s4">
                     <div class="card z-depth-5">
                         <div class="card-image">
-                            <img src="images/foodie.jpg">
+                            <a href="https://ryan-t-case.github.io/project-1/">
+                                <img src="images/foodie.jpg">
+                            </a>
                         </div>
                         <div class="card-content">
                             <span class="card-title">Food·ie</span>
@@ -108,7 +125,9 @@
                 <div class="col s4 m4">
                     <div class="card z-depth-5">
                         <div class="card-image">
-                            <img src="images/pasta.jpeg">
+                            <a href="https://jennyliang804.github.io/TriviaGame/">
+                                <img src="images/pasta.jpeg">
+                            </a>
                         </div>
                         <div class="card-content">
                             <span class="card-title">Pasta Trivia</span>
@@ -125,7 +144,9 @@
                 <div class="col s4 offset-s4">
                     <div class="card z-depth-5">
                         <div class="card-image">
-                            <img src="images/giphy.gif">
+                            <a href="https://jennyliang804.github.io/GiphyGang/">
+                                <img src="images/giphy.gif">
+                            </a>
                         </div>
                         <div class="card-content">
                             <span class="card-title">Giphy</span>
@@ -142,7 +163,9 @@
                 <div class="col s4 m4">
                     <div class="card z-depth-5">
                         <div class="card-image">
-                            <img src="images/galaxy.gif">
+                            <a href="https://jennyliang804.github.io/unit-4-game/">
+                                <img src="images/galaxy.gif">
+                            </a>
                         </div>
                         <div class="card-content">
                             <span class="card-title">Galaxy Collector</span>
@@ -172,52 +195,15 @@
         </footer>
     </div>
 
-    <script>
-        $(document).ready(function () {
-            $('.parallax').parallax();
-        });
-    </script>
-
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $(".sidenav").sidenav();
+        });
+    </script>
 </body>
 
 </html>
-
-
-<!-- 
-    <div id="project">
-        <div class="row">
-            <h4 class="projects">Projects</h4>
-            <hr style="width: 15%">
-            <div class="carousel">
-                <div class="card carousel-item">
-                    <div class="card-image">
-                        <img src="images/background6.jpeg">
-                        <span class="card-title">Card Title</span>
-                    </div>
-                    <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="https://jennyliang804.github.io/GiphyGang">Gif</a>
-                    </div>
-                </div>
-                <a class="carousel-item" href="https://jennyliang804.github.io/GiphyGang"><img src="images/background5.png"
-                        width="700" height="700"></a>
-                <a class="carousel-item" href="https://jennyliang804.github.io/TriviaGame/"><img src="images/background6.jpeg"></a>
-            </div>
-        </div>
-    </div>
-
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $(`.carousel`).carousel();
-        });
-    </script> -->
-
-<!-- <footer>
-            copyright 2018&copy;
-        </footer> -->
