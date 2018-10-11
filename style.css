@@ -74,6 +74,11 @@
     padding-left: 2%;
 }
 
+.skills img:hover {
+    opacity: .5;
+    filter: alpha(opacity=100); 
+}
+
 .projects-heading {
     text-align: center;
     color: white;
