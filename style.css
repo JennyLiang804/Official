@@ -43,7 +43,10 @@
 }
 
 #bio {
-    height: 30rem auto;
+    background: url("images/background-beach2.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .bio-image {
@@ -57,12 +60,15 @@
     padding: 2%;
     text-align: center;
     font-family: 'Playfair Display', serif;
-    color: grey;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 20px black;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .skill-header {
     margin-top: 3rem;
-    color: rgb(119, 118, 118);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 20px black;
     text-align: center;
     font-weight: 600;
     font-family: 'Playfair Display', serif;
@@ -117,8 +123,24 @@
         background-repeat: no-repeat;
         background-size: 180%;
         background-attachment: fixed;
-        
     }
+
+    .bio-image{
+        display: block;
+        margin: 1px auto;
+    }
+
+    .bio-content {
+        margin-left: 3rem;
+    }
+
+    .projects {
+        background: url("images/background9.jpg");
+        background-attachment: fixed;
+        background-size: 410%;
+        background-repeat: no-repeat;
+    }
+
 }
 
 @media only screen and (min-width : 625px) and (max-width : 824px) {
@@ -127,8 +149,24 @@
         background-repeat: no-repeat;
         background-size: 200%;
         background-attachment: fixed;
-        
     }
+
+    .bio-image{
+        display: block;
+        margin: 1px auto;
+    }
+
+    .bio-content {
+        margin-left: 3rem;
+    }
+
+    .projects {
+        background: url("images/background9.jpg");
+        background-attachment: fixed;
+        background-size: 310%;
+        background-repeat: no-repeat;
+    }
+
 }
 
 @media only screen and (min-width : 375px) and (max-width : 625px) {
@@ -149,6 +187,12 @@
         background-attachment: fixed;
         
     }
+
+    #bio, img{
+        display: block;
+        margin: 1px auto;
+    }
+
     .bio-content {
         text-indent: 0;
     }
