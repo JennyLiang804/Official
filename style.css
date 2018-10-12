@@ -151,6 +151,8 @@
         background-attachment: fixed;
     }
 
+
+
     .bio-image{
         display: block;
         margin: 1px auto;
@@ -188,7 +190,27 @@
         
     }
 
-    #bio, img{
+    #bio {
+        background: white;
+    }
+
+    .bio-content {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        text-align: left;
+        padding: 2%;
+        font-family: 'Playfair Display', serif;
+        color: gray;
+        text-shadow: none;
+        background: none;
+    }
+
+    .skill-header {
+        color: gray;
+        text-shadow: none;
+    }
+
+    .bio-image{
         display: block;
         margin: 1px auto;
     }
@@ -219,5 +241,9 @@
     .icon {
         padding-left: 0%;
         padding-right: 3rem;
+    }
+
+    .projects {
+        background: url("images/background-beach-small.jpg");
     }
 }
