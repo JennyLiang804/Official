@@ -109,7 +109,28 @@
     padding: 2%;
 }
 
-@media only screen and (min-width : 375px) and (max-width : 1024px) {
+
+@media only screen and (min-width : 824px) and (max-width : 1024px) {
+    #intro {
+        background: url("images/background7.jpg");
+        background-repeat: no-repeat;
+        background-size: 180%;
+        background-attachment: fixed;
+        
+    }
+}
+
+@media only screen and (min-width : 625px) and (max-width : 824px) {
+    #intro {
+        background: url("images/background7.jpg");
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-attachment: fixed;
+        
+    }
+}
+
+@media only screen and (min-width : 375px) and (max-width : 625px) {
     html, body {
         margin: 0;
         padding: 0;
