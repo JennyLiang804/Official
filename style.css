@@ -245,5 +245,6 @@
 
     .projects {
         background: url("images/background-beach-small.jpg");
+        width: 100%;
     }
 }
