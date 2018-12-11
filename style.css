@@ -122,6 +122,17 @@
     text-decoration: underline;
 }
 
+.page-footer a:hover {
+    color: pink;
+} 
+
+.page-footer em:hover {
+    color: pink;
+} 
+.page-footer img {
+    margin-top: 1rem;
+}
+
 .contactInfo {
     font-size: 1.5rem;
 }
