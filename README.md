@@ -22,6 +22,7 @@ If there are any problems or issues with this app, please contact the author.
 
 ## Authors
 Official-portfolio was developed by Jenny Liang in 2018
+
 contact me: Jennylove804@gmail.com
 
 ## Version History
