@@ -114,6 +114,16 @@
 .page-footer {
     background: rgba(89, 98, 116, 0.3);
     padding: 2%;
+    text-align:center
+}
+
+.page-footer a {
+    color: rgb(148, 206, 240);
+    text-decoration: underline;
+}
+
+.contactInfo {
+    font-size: 1.5rem;
 }
 
 
