@@ -112,7 +112,7 @@
 }
 
 .page-footer {
-    background: rgba(89, 98, 116, 0.3);
+    background: linear-gradient(to bottom, #1532d363 0%, #6b75916c 100%);
     padding: 2%;
     text-align:center
 }
